@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/SHREE.svg">
+    <link rel="mask-icon" type="image/x-icon" href="../img/SHREE.svg" color="#111">
+    <link rel="stylesheet" href="../css/StelySR.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/StyleCard.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/StyleCB.css">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script>
+        window.console = window.console || function(t) {};
+      </script>
+      <style>
+        .img-con{
+            background: url(../img/4087427982_2_1_1\ 2.png);
+            width: 404px; 
+            height: 609px; 
+            background-size: cover;
+            transition: 0.5s;
+        }
+        .img-con:hover{
+            background: url(../img/4087427982_2_2_1\ 1.png);
+            background-size: cover;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .img-con::after {
+            content: "";
+            display: block;
+            z-index: 2;
+            background:linear-gradient(180deg, rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.781),rgb(0, 0, 0));
+            width: 404px; 
+            height: 609px; 
+            position: absolute;
+            transition: 0.5s;
+            transition: opacity 0.5ss ease;
+            opacity: 0;
+        }
+        .img-con:hover::after{
+            opacity: 1;
+        }
+        
+
+        
+      </style>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="//www.vantajs.com/dist/vanta.fog.min.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="../SR.html">
+              <img src="../img/SHREE.svg" alt="" width="54px" height="54px">
+            </a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="./Create_STUDIO.html">STUDIO</a></li>
+                <li><a href="./Create_SERVICES.html">SERVICES</a></li>
+                
+                <li><a href="./Create_MERCH.html">MERCH</a></li>
+                <li><a href="./Create_CONTACT.html">CONTACT</a></li>
+                <li><a href="#">
+                  
+                    <svg class="carzin" width="42" height="42" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 1C1 1 5.22222 1 5.8254 1C6.42857 1 7.63492 2.85611 7.63492 4.09428C7.63492 5.33245 8.84127 20.185 10.0476 23.2788C11.254 26.3726 13.6667 27.6103 14.873 28.2297C16.0794 28.849 28.746 28.2301 30.5556 28.2297C32.3651 28.2292 35.381 25.7547 35.9841 24.5165C36.5873 23.2783 39 11.521 39 10.2828C39 9.04466 37.7937 7.1881 35.9841 6.5697C34.1746 5.95131 12.4603 6.5697 12.4603 6.5697M16.6825 31.9428C14.3575 31.7593 12.2815 33.8893 12.4603 36.2748C12.6269 38.4964 14.5172 40.1588 16.6825 39.9879C18.6754 39.8306 20.1483 38.3195 20.3016 36.2748C20.4682 34.0532 18.8478 32.1137 16.6825 31.9428ZM29.9524 31.9428C27.6274 31.7593 25.5513 33.8893 25.7302 36.2748C25.8967 38.4964 27.7871 40.1588 29.9524 39.9879C31.9452 39.8306 33.4181 38.3195 33.5714 36.2748C33.738 34.0532 32.1177 32.1137 29.9524 31.9428Z" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  
+                      
+                </a></li>
+                <li><a href="#" class="js-open-modal" data-modal="1">   
+                  
+                      <svg class="loggin" width="42" height="42" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.75 17.0986C20.1955 17.0986 23.7993 13.4948 23.7993 9.04929C23.7993 4.60379 20.1955 1 15.75 1C11.3045 1 7.70068 4.60379 7.70068 9.04929C7.70068 13.4948 11.3045 17.0986 15.75 17.0986Z M1 31.8489L1.51976 28.9691C2.13378 25.6433 3.89344 22.6376 6.49305 20.4743C9.09267 18.3109 12.368 17.1266 15.75 17.127C19.136 17.1278 22.4146 18.3161 25.0147 20.4851C27.6149 22.654 29.3721 25.6662 29.9802 28.9972L30.5 31.877" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10"/>
+                      </svg>
+                    
+                </a></li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+
+<div class="modal" data-modal="1">
+  
+  <div class="model__con">
+   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path></svg>
+   <p class="modal__title"></p>
+  </div>
+
+
+  <form class="form__user" action="" id="register" style="display: none;">
+    <div class="form__napr" >
+        <label class="avt" id="log">SIGN IN </label><span><pre> | </pre></span><label class="zar" id="reg"> SIGN UP</label>
+    </div>
+    <div class="login-box-log">
+      <div class="user-box">
+        <input type="name" name="" required="">
+        <label>Full name</label>
+      </div>
+      <div class="user-box">
+        <input type="name" name="" required="">
+        <label>E-mail</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="" required="">
+        <label>Password</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="" required="">
+        <label>Confirm passowed</label>
+      </div>
+      <div style="display: flex;">
+        <div class="con-logo">
+          <div style="background: url(../img/Vector\ \(4\).svg); background-size: cover; width: 25px; height: 26px;"></div>
+        </div>
+        <div class="con-logo">
+          <div style="background: url(../img/Vector\ \(5\).svg); background-size: cover; width: 13px; height: 26px;"></div>
+        </div>
+      </div>
+      <button class="but-log">SEND</button>
+      </div>
+    
+</form>
+
+
+
+
+<form class="form__user" id="sing" action="" >
+    <div class="form__napr">
+        <label class="avt" id="log" style="color: #FF8C00;">SIGN IN </label><span><pre> | </pre></span><label class="zar" id="reg"> SIGN UP</label>
+    </div>
+    <div class="form_napr">
+      <div class="login-box-log">
+      <div class="user-box">
+        <input type="name" name="" required="">
+        <label>User Name</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="" required="">
+        <label>Password</label>
+      </div>
+      <div style="display: flex;">
+        <div class="con-logo">
+          <div style="background: url(../img/Vector\ \(4\).svg); background-size: cover; width: 25px; height: 26px;"></div>
+        </div>
+        <div class="con-logo">
+          <div style="background: url(../img/Vector\ \(5\).svg); background-size: cover; width: 13px; height: 26px;"></div>
+        </div>
+      </div>
+      <button class="but-log">SEND</button>
+      </div>
+       <!-- <input class="pass" type="text" placeholder="E-mail">
+       <input class="pass" type="password" placeholder="Пароль"> -->
+    </div>
+    <!-- <div class="form_napr1">
+       <button class="but__login" id="but_vot">Войти</button>
+    </div> -->
+</form>
+  
+  
+</div>
+<div class="overlay js-overlay-modal"></div>
+
+    <div style="background: url(../img/1633809799_109-p-domashnyaya-studiya-zvukozapisi-foto-123\ 1.png); background-size: cover; height: 100vh; width: 100%; display: flex; justify-content: center; align-items: center;">    
+        <h4 class="intro_text_h4 _anim-items" style="font-weight: 900; font-size: 80px; text-shadow: 0 0 10px #fff;">CONTACT</h4>
+    </div>
+    
+    <div id="GB-hmeheader">
+
+    <div style="display: flex; justify-content: space-evenly; align-items: center; ">
+      <div style="display: flex; flex-direction: column;">
+        <p>Phone</p>
+        <h4>123-456-7890</h4>
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <p>Email</p>
+        <h4>info@mystie.com</h4>
+      </div>
+      <div style="display: flex; flex-direction: column; ">
+        <p>Social Media</p>
+        <div style="display: flex;">
+          <a href="" style="margin: 20px;">
+              <div style="background: url(../img/Twitter.svg);width: 50px; height: 43px; background-size: cover;"></div>
+          </a>
+          <a href="" style="margin: 20px;">
+            <div style="background: url(../img/Twitter.svg); width: 50px; height: 43px; background-size: cover;"></div>
+          </a>
+          <a href="" style="margin: 20px;">
+             <div style="background: url(../img/Group\ 1318.svg); width: 45px; height: 45px; background-size: cover;"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <form action="">
+      <h1>FEEDBACK</h1>
+      <div style="display: flex; justify-content: space-evenly; align-items: center; ">
+        <div style="display: flex; flex-direction: column;">
+
+          <div class="login-box-log">
+            <div class="user-box">
+              <input type="name" name="" required="">
+              <label>First Name</label>
+            </div>
+          </div>
+
+        </div>
+        <div style="display: flex; flex-direction: column;">
+
+          <div class="login-box-log">
+            <div class="user-box">
+              <input type="name" name="" required="">
+              <label>Last Name</label>
+            </div>
+          </div>
+
+        </div>
+        <div style="display: flex; flex-direction: column; ">
+
+          <div class="login-box-log">
+            <div class="user-box">
+              <input type="name" name="" required="">
+              <label>E-mail</label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; padding:  50px;">
+
+        <div class="login-box-log-l">
+            <div class="user-box">
+              <input type="name" name="" required="">
+              <label>Message</label>
+            </div>
+          </div>
+          <button class="but-log">SEND</button>
+
+      </div>
+     
+
+      
+     
+    </form>
+
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class=""style="display: flex; justify-content: flex-end;">
+          <div style="margin-right: auto;
+          margin-left: 50px;
+          display: flex;
+          justify-content: flex-start;">
+            <a href="./SR.html">
+              <img src="../img/SHREE.svg" alt="" width="74px" height="74px">
+            </a>
+          </div>
+          
+          <div style="display: flex;">
+            <div class="" style="display: flex; flex-direction: column; margin: 25px;">
+              <h6><a href="">STUDIO</a></h6>
+              <!-- <ul class="footer-links">
+                <li><a href="">Music</a></li>
+                <li><a href="">Sound Effects</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Log in</a></li>
+                <li><a href="">Start free trial</a></li>
+                
+              </ul> -->
+            </div>
+            <div class="" style="display: flex; flex-direction: column; margin: 25px;">
+                <h6><a href="">SERVICES</a></h6>
+                <!-- <ul class="footer-links">
+                  <li><a href="">License Model</a></li>
+                  <li><a href="">For Artists</a></li>
+                  <li><a href="">For Developers</a></li>
+                  <li><a href="">Mobile App</a></li>
+                  <li><a href="">In-Store Music</a></li>
+                  <li><a href="">Templates</a></li>
+                </ul> -->
+              </div>
+            <div class="" style="display: flex; flex-direction: column; margin: 25px;">
+              <h6><a href="">MERCH</a></h6>
+              <!-- <ul class="footer-links">
+                <li><a href="">About us</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Help</a></li>
+              </ul> -->
+            </div>
+            <div class="" style="display: flex; flex-direction: column; margin: 25px;">
+              <h6><a href="">CONTACT</a></h6>
+              <!-- <ul class="footer-links">
+                <li><a href="">Legal information</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Cookie</a></li>
+                
+              </ul> -->
+            </div>
+            <div class="" style="display: flex; flex-direction: column; margin: 25px;">
+              <h6><a href=""><button id="ru" class="translate" style="background: transparent; border: 0; cursor: pointer;"><img src="../img/image 12 (1).png" width="40px" height="25px" alt=""></button></a></h6>
+              
+            </div>
+            <div class="" style="display: flex; flex-direction: column; margin: 25px;">
+              <h6><a href=""><button id="en" class="translate" style="background: transparent; border: 0; cursor: pointer;"><img src="../img/image 13.png" width="40px" height="25px" alt=""></button></a></h6>
+              
+            </div>
+          </div>
+          
+        </div>
+       
+      </div>
+      <div class="container" style=" margin: 25px;">
+        <div class="" style=" display: flex; justify-content: space-between;">
+          <div class="" style="display: flex; flex-direction: column; ">
+            <p class="copyright-text">Copyright © 2017 All Rights Reserved by 
+         <a href="#">Scanfcode</a>.
+            </p>
+          </div>
+
+          <div class="" style="display: flex; flex-direction: column;">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#" style="display: flex; justify-content: center; align-items: center; text-decoration: none; cursor: pointer;"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#" style="display: flex; justify-content: center; align-items: center; text-decoration: none; cursor: pointer;"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#" style="display: flex; justify-content: center; align-items: center; text-decoration: none; cursor: pointer;"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="youtube" href="#" style="display: flex; justify-content: center; align-items: center; text-decoration: none; cursor: pointer;"><i class="fa fa-youtube"></i></a></li>   
+              <li><a class="tiktok" href="#" style="display: flex; justify-content: center; align-items: center; text-decoration: none; cursor: pointer;"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a></li>   
+              <li><a class="spotify" href="#" style="display: flex; justify-content: center; align-items: center; text-decoration: none; cursor: pointer;"><i class="fa fa-spotify"></i></a></li>   
+              <li><a class="youtube" href="#" style="display: flex; justify-content: center; align-items: center; text-decoration: none; cursor: pointer;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 27 27" fill="none"> <path d="M19.1815 13.495L15.5753 14.709V18.6321L13.3396 15.4615L9.73337 16.6656L11.969 13.495L9.73337 10.3344L13.3396 11.5385L15.5753 8.36789V12.291L19.1815 13.495Z" fill="#000"/><path d="M19.1815 13.495V21.6823H7.88651V5.16722H19.1815V13.495L24.1875 11.8194V3.19063L21.2811 0H2.8125V27H21.2617L24.1875 23.9799V15.1806L19.1815 13.495Z" fill="#000"/></svg></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+  
+  
+        <script>
+          $(window).scroll(function() {
+              if ($(document).scrollTop() > 50) {
+                  $('.nav').addClass('affix');
+                  console.log("OK");
+              } else {
+                  $('.nav').removeClass('affix');
+              }
+          });
+        </script>
+        <script id="rendered-js">
+          !function (e) {"function" != typeof e.matches && (e.matches = e.msMatchesSelector || e.mozMatchesSelector || e.webkitMatchesSelector || function (e) {for (var t = this, o = (t.document || t.ownerDocument).querySelectorAll(e), n = 0; o[n] && o[n] !== t;) {if (window.CP.shouldStopExecution(0)) break;++n;}window.CP.exitedLoop(0);return Boolean(o[n]);}), "function" != typeof e.closest && (e.closest = function (e) {for (var t = this; t && 1 === t.nodeType;) {if (window.CP.shouldStopExecution(1)) break;if (t.matches(e)) return t;t = t.parentNode;}window.CP.exitedLoop(1);return null;});}(window.Element.prototype);
+          
+          
+          document.addEventListener('DOMContentLoaded', function () {
+          
+          /* Записываем в переменные массив элементов-кнопок и подложку.
+           Подложке зададим id, чтобы не влиять на другие элементы с классом overlay*/
+          var modalButtons = document.querySelectorAll('.js-open-modal'),
+          overlay = document.querySelector('.js-overlay-modal'),
+          closeButtons = document.querySelectorAll('.js-modal-close');
+          
+          
+          /* Перебираем массив кнопок */
+          modalButtons.forEach(function (item) {
+          
+          /* Назначаем каждой кнопке обработчик клика */
+          item.addEventListener('click', function (e) {
+          
+            /* Предотвращаем стандартное действие элемента. Так как кнопку разные
+               люди могут сделать по-разному. Кто-то сделает ссылку, кто-то кнопку.
+               Нужно подстраховаться. */
+            e.preventDefault();
+          
+            /* При каждом клике на кнопку мы будем забирать содержимое атрибута data-modal
+               и будем искать модальное окно с таким же атрибутом. */
+            var modalId = this.getAttribute('data-modal'),
+            modalElem = document.querySelector('.modal[data-modal="' + modalId + '"]');
+          
+          
+            /* После того как нашли нужное модальное окно, добавим классы
+               подложке и окну чтобы показать их. */
+            modalElem.classList.add('active');
+            overlay.classList.add('active');
+          }); // end click
+          
+          }); // end foreach
+          
+          
+          closeButtons.forEach(function (item) {
+          
+          item.addEventListener('click', function (e) {
+            var parentModal = this.closest('.modal');
+          
+            parentModal.classList.remove('active');
+            overlay.classList.remove('active');
+          });
+          
+          }); // end foreach
+          
+          
+          document.body.addEventListener('keyup', function (e) {
+          var key = e.keyCode;
+          
+          if (key == 27) {
+          
+            document.querySelector('.modal.active').classList.remove('active');
+            document.querySelector('.overlay').classList.remove('active');
+          };
+          }, false);
+          
+          
+          overlay.addEventListener('click', function () {
+          document.querySelector('.modal.active').classList.remove('active');
+          this.classList.remove('active');
+          });
+          
+          
+          
+          
+          }); // end ready
+          //# sourceURL=pen.js
+          </script>
+        
+          <script>       
+          $('.zar').click(function(){
+              $('#sing').toggle(({
+                'transition' :'all .5s',
+              }))
+              $('#register').show(({
+                'transition' :'all .5s',
+              }))
+              $('.avt').css({
+                  'color':'white',
+                  'transition' :'all .5s',
+              })
+              $('.zar').css({
+                  'color':'#FF8C00',
+                  'transition' :'all .5s',
+              })
+          })
+          $('.avt').click(function(){
+              $('#sing').show(({
+                'transition' :'all .5s',
+              }))
+              $('#register').toggle(({
+                'transition' :'all .5s',
+              }))
+              $('.avt').css({
+                  'color':'#FF8C00',
+                  'transition' :'all .5s',
+              })
+              $('.zar').css({
+                  'color':'white',
+                  'transition' :'all .5s',
+              })
+          })
+          </script>
+          <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+  
+    
+          <script id="rendered-js">
+    VANTA.FOG({
+      el: "#GB-hmeheader",
+       mouseControls: true,
+      touchControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      highlightColor: 0x0,
+      midtoneColor: 0x6634b6,
+      lowlightColor: 0x000000,
+      baseColor: 0x6634b6,
+      speed: 1.60
+    })
+    
+    </script>
+</body>
+</html>
